@@ -135,6 +135,7 @@ normalization (we use N to indicate a call to `normalize`):
 1. N(re<sub>1</sub>|&empty;) = N(re<sub>1</sub>)
 1. N(&empty;|re<sub>2</sub>) = N(re<sub>2</sub>)
 1. N(re<sub>1</sub>|re<sub>2</sub>) = N(re<sub>1</sub>)|N(re<sub>2</sub>)
+1. N(re\*) = N(re)\*
 
 You can see another form of these rules in the documentation for this
 method.
