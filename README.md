@@ -99,7 +99,7 @@ an implementation for. Here is a summary of these methods:
 defined in the [notes]. That is, it returns the "empty" regular
 expression &epsilon; if the regular expression matches "empty" or
 &empty; if the regular expression matches "null". Recall that the
-empty regular expression &epsilon; matches everything and &empty;
+empty regular expression &epsilon; matches the empty string and &empty;
 matches nothing.
 
 **isEmpty: Boolean**: This method returns *true* if it matches empty
