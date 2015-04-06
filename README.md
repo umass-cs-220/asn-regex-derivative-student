@@ -172,7 +172,7 @@ representing the "empty" regular expression.
 object representing the character regular expression (the regular
 expression that matches a single character `c`).
 
-**seq(re1: RegEx, re2: Reg): RegEx**: This method returns a regular
+**seq(re1: RegEx, re2: RegEx): RegEx**: This method returns a regular
 expression that represents a sequence of regular expressions `re1`
 and `re2`. Note, to represent a regular expression of a sequence of
 characters such as `/foo/` we could do the following:
@@ -187,7 +187,7 @@ which we would create with `alt(char('a), char('b))`.
 for matching the string `s`. As we mentioned above this can (and
 should) be implemented by a sequence of characters.
 
-**closure(re: RegExp): RegEx**: This method implements the closure
+**closure(re: RegEx): RegEx**: This method implements the closure
 regular expression. For example, `/a*/` matches 0 or more `a`'s, which
 we would represent as `closure(char('a'))`.
 
